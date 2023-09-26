@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Frank+Ruhl+Libre:wght@700;900&family=Indie+Flower&display=swap');
 
-
 body {
     height: 100vh;
     width: 100vw;
@@ -14,8 +13,6 @@ body {
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(2, 500px);
-    width: 1000px;
-    margin-top: 100px;
 }
 
 /*Header container on the left side*/
@@ -32,11 +29,7 @@ body {
     display: flex;
     width: 314px;
     height: 101px;
-    flex-shrink: 0;
-    margin-left: 120px;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 5px;
+    margin: 80px auto 10px 120px;
     color: #000;
     font-family: Frank Ruhl libre;
     font-size: 45px;
@@ -50,9 +43,7 @@ body {
     width: 268px;
     height: 103px;
     flex-shrink: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
+    margin: 0 auto 0 auto;
     color: rgba(0, 0, 0, 0.60);
     font-family: Fira Sans;
     font-size: 14px;
@@ -83,30 +74,24 @@ body {
     justify-content: center;
     align-items: center;
     color: rgba(0, 0, 0, 0.80);
-    text-align: center;
     font-family: Fira Sans;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .button .p {
-    display: flex;
     color: rgba(0, 0, 0, 0.80);
-    text-align: center;
     font-family: Fira Sans;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .family-pic {
     align-self: flex-end;
     width: 286px;
     height: 279px;
-    flex-shrink: 0;
     margin-right: 10px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -136,7 +121,6 @@ body {
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
     letter-spacing: -0.64px;
     margin-top: 0;
 }
@@ -149,7 +133,6 @@ body {
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: -0.22px;
     margin-bottom: 0;
 }
@@ -171,7 +154,6 @@ body {
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: -0.22px;
     margin-bottom: 0;
 }
@@ -182,7 +164,6 @@ body {
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
     letter-spacing: -0.64px;
     margin-top: 0;
 }
@@ -201,7 +182,6 @@ body {
     align-items: center;
     width: 167px;
     height: 57px;
-    flex-shrink: 0;
     color: #000;
     text-align: center;
     font-family: Fira Sans;
@@ -210,7 +190,6 @@ body {
     font-weight: 600;
     line-height: 100%;
     letter-spacing: -0.24px;
-
 }
 
 .nav-item-grey {
@@ -219,7 +198,6 @@ body {
     align-items: center;
     width: 167px;
     height: 57px;
-    flex-shrink: 0;
     color: #000;
     text-align: center;
     font-family: Fira Sans;
@@ -244,7 +222,6 @@ body {
     background-color: #A9A19E;
     width: 1002px;
     height: 612px;
-    flex-shrink: 0;
     grid-column: auto /span 6;
     display: grid;
     grid-template-columns: repeat(11, 90px);
@@ -254,7 +231,6 @@ body {
 .content__title {
     width: 314px;
     height: 140px;
-    flex-shrink: 0;
     color: #FFF;
     font-family: Frank Ruhl Libre;
     font-size: 45px;
@@ -271,7 +247,6 @@ body {
 .content__gallery .button {
     width: 131px;
     height: 39px;
-    flex-shrink: 0;
     grid-column: 1;
     grid-row: 4;
     margin-left: 90px;
@@ -283,18 +258,15 @@ body {
     justify-content: center;
     align-items: center;
     color: rgba(0, 0, 0, 0.80);
-    text-align: center;
     font-family: Fira Sans;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .content__gallery-text {
     width: 280px;
     height: 237px;
-    flex-shrink: 0;
     color: #00000099;
     font-family: Fira Sans;
     font-size: 14px;
@@ -307,17 +279,16 @@ body {
 }
 
 .content__gallery-poster-kid {
+    grid-column: 2;
+    grid-row: 6;
     width: 256px;
     height: 308px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-    grid-column: 2;
-    grid-row: 6;
     position: relative;
 }
 
@@ -327,7 +298,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
@@ -342,7 +312,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
@@ -441,9 +410,8 @@ body {
 /*Content About us*/
 
 .content__aboutus {
-    width: 1002px;
+    width: 1000px;
     height: 680px;
-    flex-shrink: 0;
     background-color: #FAB131;
     display: flex;
     flex-direction: column;
@@ -455,26 +423,21 @@ body {
 .content__title_2 {
     width: 314px;
     height: 140px;
-    flex-shrink: 0;
     color: #FFF;
     font-family: Frank Ruhl Libre;
     font-size: 45px;
     font-style: normal;
     font-weight: 900;
-    line-height: 100%;
-    /* 45px */
     letter-spacing: -0.9px;
     grid-column: 2;
     grid-row: 2;
-    margin-top: 160px;
+    margin: 160px auto 0 auto;
     text-align: center;
-    margin-bottom: 0;
 }
 
 .content__aboutus-text {
     width: 442px;
     height: 280px;
-    flex-shrink: 0;
     color: rgba(0, 0, 0, 0.60);
     text-align: center;
     font-family: Fira Sans;
@@ -508,15 +471,11 @@ body {
     font-size: 45px;
     font-style: normal;
     font-weight: 900;
-    line-height: 100%;
-    /* 45px */
-    letter-spacing: -0.9px;
 }
 
 .cube__white {
     width: 334px;
     height: 340px;
-    flex-shrink: 0;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -533,8 +492,6 @@ body {
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
-    line-height: 100%;
-    letter-spacing: -0.7px;
     align-self: flex-start;
     margin-bottom: 0;
 }
@@ -555,7 +512,6 @@ body {
 .cube__beige {
     width: 334px;
     height: 340px;
-    flex-shrink: 0;
     background-color: #EBEBEB;
     display: flex;
     flex-direction: column;
@@ -567,7 +523,6 @@ body {
 .cube__orange {
     width: 334px;
     height: 340px;
-    flex-shrink: 0;
     background-color: #F17949;
     display: flex;
     flex-direction: column;
@@ -587,8 +542,7 @@ body {
     max-width: 1000px;
     height: 68px;
     flex-shrink: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0 auto 0 auto;
     padding: 0;
 }
 
@@ -601,31 +555,18 @@ body {
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px;
     margin-top: 0;
     margin-bottom: 5px;
-}
-
-.popup__chevron {
-    margin-bottom: -20px;
-    flex-shrink: 0;
 }
 
 footer {
     max-width: 1000px;
     height: 340px;
-    flex-shrink: 0;
     background-color: #777574;
 }
 
 @media screen and (max-width:500px) {
-
-    body {
-        max-width: 100%;
-    }
-
     .header {
-        margin-top: 0;
         display: flex;
         flex-direction: column;
         max-width: 500px;
@@ -639,42 +580,72 @@ footer {
 
     .header__columns {
         display: flex;
-        max-width: 500px;
-        height: 544px;
+        width: 500px;
+        height: 500px;
     }
 
     .content {
         display: flex;
         flex-direction: column;
         max-width: 500px;
-    }
-
-    .content__aboutus {
-        max-width: 500px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .navigation, .popup {
-        display: none;
+        width: 100%;
+        gap: 2px;
     }
 
     .content__gallery {
         display: flex;
         flex-direction: column;
-        align-items: center;
         max-width: 500px;
-        width: 500px;
-        height: 500px;
+        height: 100%;
+        gap: 50px;
+        padding-left: 20px;
     }
 
-    .content__title{
+    .content__gallery-poster-kid, .content__gallery-poster-woman, .content__gallery-poster-grandpa{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content__aboutus {
+        max-width: 500px;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation,
+    .content__gallery .button,
+    .popup {
+        display: none;
+    }
+
+    .content__title, .content__title_2 {
         margin-top: 30px;
+        margin-bottom: 0;
     }
 
-    .content .button{
-        margin: -20px auto 25px auto;
+    .content__gallery-text{
+        max-width: 450px;
+        min-width: 430px;
+        max-height: 150px;
     }
 
+    .content__aboutus-text{
+        width: 420px;
+    }
 
+    .cubes {
+        grid-template-columns: 100%;
+        grid-column: auto / span 1;
+        max-width: 500px;
+    }
+
+    .cube__beige, .cube__orange, .cube__blue, .cube__white{
+        grid-column: 1 / span 1;
+        width: 500px;
+    }
+
+    .footer{
+        min-width: 500px;
+    } 
 }
